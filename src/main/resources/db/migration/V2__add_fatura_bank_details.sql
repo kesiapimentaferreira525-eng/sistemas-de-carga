@@ -1,0 +1,4 @@
+ALTER TABLE tb_fatura
+    ADD COLUMN agencia VARCHAR(100),
+    ADD COLUMN conta VARCHAR(100),
+    ADD COLUMN pix VARCHAR(255);
